@@ -6,7 +6,7 @@ El objetivo fue reorganizar la aplicación para mejorar la mantenibilidad, separ
 
 ## Diagrama MVC
 
-![Diagrama MVC](docs/diagrama-mvc.png)
+![Diagrama MVC](https://github.com/BritneyG26/practica3_servidores/blob/main/arquitecturamvc.png)
 
 
 ## Explicación de componentes y responsabilidades
