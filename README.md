@@ -1,4 +1,4 @@
-# Práctica 3_Desarrollo de servidores y Big Data
+# Práctica 3_Desarrollo de servidor y Big Data
 ## Introducción
 En esta práctica se migró la aplicación desarrollada en la práctica 2 hacia una arquitectura basada en MVC siguiendo la plantilla proporcionada.
 
