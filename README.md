@@ -42,15 +42,15 @@ Se puede observar la separación en la estructura del proyecto y en cómo se dsi
 
 Los modelos Usuario y Producto gestionan la lógica de negocio y el acceso a datos.
 
-Las vistas login.html y dashboard.html solo se encargan de mostrar infromación sin ejecutar lógica de negocio ni consultas directas a la abse de datos. 
+Las vistas login.html y dashboard.html solo se encargan de mostrar infirmación sin ejecutar lógica de negocio ni consultas directas a la base de datos. 
 
-Los controladores majena las rutas, procesan las solicitudes y coordinan la interacción entre modelos y vistas.
+Los controladores maneja las rutas, procesan las solicitudes y coordinan la interacción entre modelos y vistas.
 
 Además, el uso de Marshmallow para validar datos y Swagger para documentar la API demuestra que la capa de presentación y la capa de datos están separadas.
 
 ## Reflexión sobre beneficios y desafíos del patrón MVC
 # Beneficios
-La migración al patrón MVC tiene varios beneficios. La mantenibilidad mejora ya que cada componente de la aplicación cumple una única responsabilidad, lo que facilita realizar cambios o extender fucnionalidades sin afectar otras partes del sistema. También se pueden agregar nuevas fucnionalidades en los modelos, vistas y controladores de manera independiente. Además, las pruebas uitarias y de integración son mas secnillas ya que se pueden aplicar de forma independiente a cada capa de aplicación.
+La migración al patrón MVC tiene varios beneficios. La mantenibilidad mejora ya que cada componente de la aplicación cumple una única responsabilidad, lo que facilita realizar cambios o extender fucnionalidades sin afectar otras partes del sistema. También se pueden agregar nuevas funcionalidades en los modelos, vistas y controladores de manera independiente. Además, las pruebas unitarias y de integración son mas sencillas ya que se pueden aplicar de forma independiente a cada capa de aplicación.
 
 # Desafíos
 Uno de los desafíos en migrar el código a esta arquitectura requiere reorganizar el proyecto. Además, en este caso al proporcionar la plantilla se tuvo que cambiar nombres como User por Usuario y username por nombre y fue necesario revisar todos los ficheros y test para que coincidieran. 
