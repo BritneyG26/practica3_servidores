@@ -6,6 +6,8 @@ El objetivo fue reorganizar la aplicación para mejorar la mantenibilidad, separ
 
 ## Diagrama MVC
 
+![Diagrama MVC](docs/diagrama-mvc.png)
+
 
 ## Explicación de componentes y responsabilidades
 ### Models
