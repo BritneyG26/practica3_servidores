@@ -1,4 +1,10 @@
 # Práctica 3_Desarrollo de servidor y Big Data
+
+## Integrantes
+- Mar Quispe
+- Britney Cuichan
+
+  
 ## Introducción
 En esta práctica se migró la aplicación desarrollada en la práctica 2 hacia una arquitectura basada en MVC siguiendo la plantilla proporcionada.
 
