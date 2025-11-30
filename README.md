@@ -10,6 +10,7 @@ El objetivo fue reorganizar la aplicación para mejorar la mantenibilidad, separ
 ## Explicación de componentes y responsabilidades
 ### Models
 Ubicados en app/models/
+
 Contienen:
 - Lógica de dominio
 - Conexión con SQLAlchemy
@@ -18,6 +19,7 @@ Contienen:
 
 ### View
 Ubicadas en app/templates y app/static/
+
 Contienen:
 - login.html
 - dashboard.html
@@ -27,6 +29,7 @@ Contienen:
 
 ### Controller 
 Implementados en Blueprints en app/blueprints/
+
 Están:
 - auth/
 - main/
